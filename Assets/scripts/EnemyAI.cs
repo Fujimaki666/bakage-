@@ -7,7 +7,7 @@ public class EnemyAI : MonoBehaviour
     public Transform player; // プレイヤーの Transform
     public float stopDistance = 1.5f; // 停止距離
     public float alertDistance = 5.0f; // 音楽再生開始の距離
-    public string gameover = "GameOver"; // シーン遷移名
+    public string gameover = "GameOver_fall"; // シーン遷移名
      // 再生する音楽
     private bool musicPlayed = false; // 音楽が再生済みかを記録
     private NavMeshAgent agent;
