@@ -8,7 +8,8 @@ public class CountdownManager : MonoBehaviour
     public TextMeshProUGUI countdownText; // カウントダウン用のText (TMP)
     public float countdownTime = 3f; // カウントダウンの開始値
     public GameObject panel;
-    public GameObject stop;
+    
+    public PlayerController playerController;
     private void Start()
     {
         if (countdownText == null)
@@ -34,6 +35,7 @@ public class CountdownManager : MonoBehaviour
         yield return new WaitForSeconds(1f); // 1秒表示
         countdownText.text = ""; // カウントダウンテキストを消す
         panel.SetActive(false);
-        stop.SetActive(false);
+
+        playerController.StartMoving();
     }
 }

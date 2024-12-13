@@ -4,8 +4,8 @@ using UnityEngine.SceneManagement;
 public class PlayerController : MonoBehaviour
 {
     public float speed = 5f; // 前進の速度
-    private bool isMoving = true; // 前進中かどうか
-    private Vector3 moveDirection = Vector3.forward; // 移動方向
+    public bool isMoving = false; // 初期状態では移動しない
+    public Vector3 moveDirection = Vector3.forward; // 移動方向
     [SerializeField]
     [Tooltip("自動ドアのアニメーター")]
     private Animator automaticDoorAnimator;
@@ -31,6 +31,10 @@ public class PlayerController : MonoBehaviour
         {
             SceneManager.LoadScene(gameover); // シーンを遷移
         }
+    }
+    public void StartMoving()
+    {
+        isMoving = true;
     }
 
     // プレイヤーを停止させる
