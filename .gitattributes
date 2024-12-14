@@ -3,3 +3,4 @@ Assets/Fonts/Noto_Sans_JP/static/NotoSansJP-Black[[:space:]]SDF.asset filter=lfs
 *.ttf filter=lfs diff=lfs merge=lfs -text
 Assets/SkySeries[[:space:]]Freebie/FreebieHdri/MegaSun4k.hdr filter=lfs diff=lfs merge=lfs -text
 Assets/SkySeries[[:space:]]Freebie/FreebieHdri/HighFantasy4k.hdr filter=lfs diff=lfs merge=lfs -text
+Assets/Fantasy[[:space:]]Forest[[:space:]]Environment[[:space:]]Free[[:space:]]Sample/Scenes/New[[:space:]]Terrain.asset filter=lfs diff=lfs merge=lfs -text
