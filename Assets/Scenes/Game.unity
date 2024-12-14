@@ -7123,7 +7123,7 @@ MonoBehaviour:
   player: {fileID: 520889538}
   stopDistance: 3
   alertDistance: 4
-  gameover: GameOver_fall
+  gameover: GameOver
   audioSource: {fileID: 843166357}
 --- !u!54 &843166359
 Rigidbody:
