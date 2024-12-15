@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: 5d133deeaa66ed445853e946ff25e073, type: 2}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 16bc8a9d5451ca44d8f70575adbece3a, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.46613818, g: 0.46583682, b: 0.4619301, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -233,7 +233,7 @@ MonoBehaviour:
   fadePanel: {fileID: 248478803}
   fadeDuration: 1.03
   audioSource: {fileID: 1952530476}
-  waitTime: 45
+  waitTime: 30
   audioStartTime: 55.3
 --- !u!114 &258748311
 MonoBehaviour:
@@ -264,11 +264,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
-  m_ScreenMatchMode: 0
+  m_ReferenceResolution: {x: 1920, y: 1080}
+  m_ScreenMatchMode: 1
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
@@ -509,8 +509,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 874616705}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.006779399, y: 0.9896953, z: -0.05008121, w: 0.13397418}
-  m_LocalPosition: {x: 242.88673, y: 1.0714927, z: 69.70058}
+  m_LocalRotation: {x: 0.09547757, y: -0.24535608, z: 0.024254167, w: 0.9644149}
+  m_LocalPosition: {x: 246.08574, y: 1.5601835, z: 64.70006}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -721,43 +721,43 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 514aca97eca872a439b279399b1f556e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 243.73831
+      value: 243.70433
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 514aca97eca872a439b279399b1f556e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.006403923
+      value: 0.0012798905
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 514aca97eca872a439b279399b1f556e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 67.24418
+      value: 67.48504
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 514aca97eca872a439b279399b1f556e, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.9984188
+      value: -0.12560837
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 514aca97eca872a439b279399b1f556e, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.020574374
+      value: -0.026054924
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 514aca97eca872a439b279399b1f556e, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.03576773
+      value: -0.99169904
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 514aca97eca872a439b279399b1f556e, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.038175154
+      value: 0.008762464
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 514aca97eca872a439b279399b1f556e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -2.198
+      value: 1.371
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 514aca97eca872a439b279399b1f556e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -4.189
+      value: -194.403
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 514aca97eca872a439b279399b1f556e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 4.46
+      value: 2.837
       objectReference: {fileID: 0}
     - target: {fileID: -7886296069685295061, guid: 514aca97eca872a439b279399b1f556e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1311,3 +1311,7 @@ SceneRoots:
   - {fileID: 874616708}
   - {fileID: 1626368536}
   - {fileID: 1309119886}
+  - {fileID: 1734172206}
+  - {fileID: 258748314}
+  - {fileID: 511135175}
+  - {fileID: 2085133031}
